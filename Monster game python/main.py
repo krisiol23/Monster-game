@@ -21,7 +21,7 @@ def getRandomItem():
     return [randomKey, randomVal]
 
 def displayEq(character):
-    print(f"You have {character.getIdx} out of 5")
+    #print(f"You have {character.getIdx} out of 5") doesn't work
     for item in character.items:
         if(item!=None):
             print(item.name)
@@ -108,7 +108,6 @@ if __name__ == '__main__':
                     domesticate(character)
 
                 getItem = random.randint(1,2)
-                getItem = 2
                 if(getItem == 2):
                     if(character.getIdx() != 5):
                         randomItem = getRandomItem()
