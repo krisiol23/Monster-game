@@ -1,1 +1,1 @@
-Simple RPG console game, made to the needs of studies subject
+Simple RPG console game, made to the needs of the studies subject
